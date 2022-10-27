@@ -1,0 +1,284 @@
+*¨ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+img {
+  max-width: 100%;
+}
+
+img,
+svg {
+  vertical-align: middle;
+}
+
+header {
+  background-color: white;
+  position: sticky;
+  top: 0;
+  z-index: 2;
+}
+
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__list {
+  list-style: none;
+  font-weight: 600;
+  display: flex;
+}
+
+.nav__item {
+  margin: 0 0 0 1.5rem;
+}
+
+.nav__link {
+  padding: 10px;
+  margin: 10px;
+  display: inline-block;
+  color: black;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.nav__link:hover {
+  color: white;
+  background-color: #7c54f4;
+  border-radius: 20px;
+}
+
+.info {
+  position: relative;
+  display: block;
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+
+.info_p {
+  text-transform: capitalize;
+  font-size: 4.5rem;
+  font-weight: 400;
+  position: relative;
+}
+
+.info_p2 {
+  font-weight: 700;
+  position: absolute;
+  top: 35%;
+  left: 30px;
+}
+/* CAMBIAR MAS ADELANTE */
+.info_p3 {
+  position: absolute;
+  top: 50%;
+  left: 30px;
+  font-size: 1.4rem;
+}
+
+.product_N {
+  text-align: center;
+  color: white;
+  background-color: #7c54f4;
+}
+
+.product_1 {
+  text-align: center;
+}
+
+footer {
+  background-color: black;
+}
+
+.footer_redes {
+  background-color: #212121;
+  color: white;
+  text-align: center;
+}
+
+.footer_redes a {
+  color: white;
+}
+
+.footer_redes a {
+  font-size: 1.2rem;
+  margin: 10px;
+}
+
+.footer_icons {
+  text-align: center;
+}
+
+/* Celulares */
+
+.Titulo_cel {
+  text-align: center;
+  color: white;
+  background-color: #7c54f4;
+}
+
+.card {
+  text-align: center;
+  margin: 1rem;
+  max-width: 300px;
+  padding: 1rem;
+  box-shadow: #7c54f4;
+  background-color: white;
+}
+
+.card:hover {
+  box-shadow: #5e3ac9;
+  overflow: hidden;
+  border-radius: 6px;
+  cursor: default;
+  transform: translateY(-3%);
+}
+
+.card_buttom {
+  background-color: #7c54f4;
+  color: white;
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+}
+
+.card_buttom:hover {
+  background-color: white;
+  border-radius: 25px;
+  border-style: solid;
+  border-color: #7c54f4;
+  color: #7c54f4;
+  padding: 7px;
+}
+
+.card_imagen--moto {
+  width: 200px;
+}
+
+.card_imagen--iphone {
+  width: 128px;
+}
+.card_imagen {
+  width: 200px;
+}
+
+/* Smartv */
+.smart_P {
+  position: relative;
+  display: block;
+  text-align: center;
+}
+
+.smart_p1 {
+  text-transform: capitalize;
+  font-size: 4.5rem;
+  font-weight: 400;
+}
+.smart_p2 {
+  font-weight: 700;
+  position: absolute;
+  top: 35%;
+  left: 30px;
+}
+
+.smart_p3 {
+  position: absolute;
+  top: 55%;
+  left: 35px;
+  font-size: 1.4rem;
+}
+
+.card_imagen--samsung {
+  width: 200px;
+}
+.card_imagen--mototv {
+  width: 200px;
+}
+
+/* FAQ*/
+.dudasyrespuestas {
+  width: 400px;
+  margin: auto;
+  padding: 40px;
+}
+.dudas {
+  background-color: #7c54f4;
+  display: inline-block;
+  text-align: center;
+  margin-top: 50px;
+}
+.dudas p {
+  background-color: #5e3ac9;
+  padding: 10px;
+  display: inline-block;
+}
+
+.muestra {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+@media (max-width: 728px) {
+  .muestra {
+    flex-direction: column;
+  }
+  .formulario {
+    width: 100px;
+  }
+}
+
+.card--inicio-1 {
+  text-align: center;
+  margin: 1rem;
+  max-width: 300px;
+  padding: 1rem;
+  box-shadow: #7c54f4;
+  background-color: white;
+}
+
+.card--inicio-2 {
+  text-align: center;
+  margin: 1rem;
+  max-width: 300px;
+  padding: 1rem;
+  box-shadow: #7c54f4;
+  background-color: white;
+}
+
+.card--inicio-3 {
+  text-align: center;
+  margin: 1rem;
+  max-width: 300px;
+  padding: 1rem;
+  box-shadow: #7c54f4;
+  background-color: white;
+}
+
+.card--inicio-4 {
+  text-align: center;
+  margin: 1rem;
+  max-width: 300px;
+  padding: 1rem;
+  box-shadow: #7c54f4;
+  background-color: white;
+}
+
+/*preguntas*/
+
+.formulario {
+  background-color: #7c54f4;
+  color: #212121;
+  margin: 1rem;
+}
+.form {
+  background-color: #5e3ac9;
+}
