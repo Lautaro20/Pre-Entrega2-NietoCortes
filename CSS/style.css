@@ -374,4 +374,19 @@ footer {
   .formulario {
     width: 100px;
   }
+  header {
+    position: relative;
+  }
+  .container-fluid {
+    flex-direction: column;
+    max-width: max-content;
+    justify-content: start;
+  }
+  .nav__list {
+    flex-direction: column;
+    justify-content: start;
+  }
+  .cuadros {
+    grid-template-columns: repeat(1, 1fr);
+  }
 }
