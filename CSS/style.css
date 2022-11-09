@@ -301,7 +301,7 @@ footer {
   background-size: cover;
   background-position: center center;
 
-  background-image: url(/imagenes/galaxy\ ss.jpg);
+  background-image: url(../imagenes/galaxy_ss.jpg);
 }
 .cuadros-card2 {
   border-radius: 10px;
@@ -312,7 +312,7 @@ footer {
 
   background-size: cover;
   background-position: center center;
-  background-image: url(/imagenes/galaxy_a.jpg);
+  background-image: url(../imagenes/galaxy_a.jpg);
 }
 
 .cuadros-card3 {
@@ -324,7 +324,7 @@ footer {
 
   background-size: cover;
   background-position: center center;
-  background-image: url(/imagenes/j.jpg);
+  background-image: url(../imagenes/j.jpg);
 }
 
 .cuadros-card4 {
@@ -336,7 +336,7 @@ footer {
 
   background-size: cover;
   background-position: center center;
-  background-image: url(/imagenes/Glaxyzzz.jpg);
+  background-image: url(../imagenes/Glaxyzzz.jpg);
 }
 .cuadros-card4:hover {
   box-shadow: #5e3ac9;
